@@ -24,13 +24,14 @@ class Reloj(object):
 
 
     def horaCorrecta(self):
-        if 0<= self.hora <=23:
+        if 0<= self.hora <=23 and :
             if 0<= self.minuto <=60:
                 if 0<= self.seg <=60:
                     return True
         else:
             print("Pusiste mal la hora")
             return False
+
 
 
 
