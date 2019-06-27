@@ -2,6 +2,7 @@ from objetos_clase1 import *
 from objetos_clase2 import *
 from factura import *
 from empleado import *
+from persona_actividad import *
 
 
 
@@ -35,7 +36,7 @@ print(ob.dedos)
 
 
 Prueba = Romano(950)
-print Prueba.romanizar()
+print(Prueba.romanizar())
 
 
 
@@ -53,3 +54,23 @@ empleado1 = Empleado("Fancisco",30000)
 print(empleado1.getnombre())
 empleado1.setnombre("Francisco jose")
 print(empleado1.setnombre(),",",empleado1.getsalario())
+
+
+#creas una clase de personas
+nuevo_nombre = Persona()
+nuevo_nombre.nombre = "esteban"
+nuevo_nombre.edad = 25
+print(nuevo_nombre.nombre)
+print(nuevo_nombre.edad)
+print(nuevo_nombre.corre()+ nuevo_nombre.salta()+nuevo_nombre.camina())
+
+
+
+#rejoz
+relojito = Reloj():
+print(relojito.dame_hora())
+print(horaCorrecta())
+
+
+
+
