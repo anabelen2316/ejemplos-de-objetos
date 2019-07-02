@@ -3,12 +3,6 @@ llamada Alumno que tenga como atributos el nombre y la nota del alumno.
 Definir los métodos para inicializar sus atributos, imprimirlos y mostrar
 un mensaje con el resultado de la nota y si ha aprobado o no."""
 
-
-
-
-
-
-
 class Alumnos(object):
     nombre = ""
     nota = 0
@@ -23,6 +17,12 @@ class Alumnos(object):
         self.nota = clasificacion
     def aprobarNota(self):
         if self.nota >=5:
-            print("este alumno ha aprobado")
+            print("Este alumno ha aprobado")
             return ("El Alumno ha superado el cursos, Feliz fin de Curso")
+
+
+
+
+
+
 
