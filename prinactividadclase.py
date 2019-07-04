@@ -11,7 +11,7 @@ print(pepe.aprobarNota())
 
 
 
-#
-# print(Cuenta())
-# print(PlazoFijo())
-#
+print(llamarCuenta())
+ print(Cuenta())
+ print(PlazoFijo())
+
